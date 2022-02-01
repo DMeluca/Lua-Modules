@@ -288,6 +288,7 @@ function matchFunctions.getTournamentVars(match)
 	match.liquipediatier = Logic.emptyOr(match.liquipediatier, Variables.varDefault('tournament_tier'))
 	match.liquipediatiertype = Logic.emptyOr(match.liquipediatiertype, Variables.varDefault('tournament_tier_type'))
 	match.publishertier = Logic.emptyOr(match.publishertier, Variables.varDefault('tournament_publishertier'))
+	match.game = Logic.emptyOr(match.game, Variables.varDefault('tournament_game'))
 	return match
 end
 
